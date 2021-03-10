@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡(欢迎), server: 120.232.96.45, port: 20007, type: vmess, uuid: 03349423-6f1b-3e98-9d48-3eb8d3b082b0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.139.209.155}}
+  - {name: 🇸🇬 新加坡(欢迎订阅), server: 120.232.96.45, port: 20007, type: vmess, uuid: 03349423-6f1b-3e98-9d48-3eb8d3b082b0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.139.209.155}}
   - {name: 🇸🇬 新加坡(欢迎订阅) 2, server: 158.247.226.4, port: 8888, type: vmess, uuid: 510b2493-1285-4dc6-9fe4-2a5bbe6dc0f9, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡(欢迎订阅) 3, server: v1-aws-sg-02.tudog.me, port: 80, type: vmess, uuid: df10a281-5ae4-3330-9bcf-9107f76c7270, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-02.tudog.me}}
   - {name: 🇭🇰 香港(欢迎订阅), server: 158.247.226.4, port: 8888, type: vmess, uuid: e063ce5e-a02a-45a7-a4b7-3d591ff57fd9, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
